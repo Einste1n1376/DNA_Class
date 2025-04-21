@@ -6,8 +6,8 @@ from Bio.pairwise2 import format_alignment
 import matplotlib.pyplot as plt
 
 # ---- Load sequences ----
-query_seqs = list(SeqIO.parse("Statistical_Concepts_in_DNA/fasta_data/Database.fasta", "fasta"))
-db_seqs = list(SeqIO.parse("Statistical_Concepts_in_DNA/fasta_data/Database.fasta", "fasta"))
+query_seqs = list(SeqIO.parse("Suspect.fasta", "fasta"))
+db_seqs = list(SeqIO.parse("Database.fasta", "fasta"))
 
 # ---- Store all alignments for combined plotting ----
 alignment_data = []
